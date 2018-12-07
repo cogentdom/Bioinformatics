@@ -37,8 +37,10 @@ public class GeneBankSearch {
 				cacheSize = Integer.parseInt(args[3]); 
 				if (args.length == 5) {
 					debugLevel = Integer.parseInt(args[4]);
-					
 				}
+			}
+			else if (args.length == 5) {
+				debugLevel = Integer.parseInt(args[4]);
 			}
 			else if (args.length == 4) {
 				debugLevel = Integer.parseInt(args[3]);
@@ -87,7 +89,6 @@ public class GeneBankSearch {
 		file = new File(fn); // takes in file name
 	
 		
-		queryFile = args[2];
 		System.out.println("Searching BTree...");
 		beginSearch(subSize);
 		System.out.println("Search complete. Query results were stored in " + fn);
