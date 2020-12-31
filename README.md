@@ -1,9 +1,9 @@
 README
 LAB-04
 Team Programming Project: Bioinformatics
-Marcus Henke 
-Dominik Huffield
-Hailee Kiesecker
+- Dominik Huffield
+- Marcus Henke 
+
 
 Due date: 12pm 12/07/2018
 
