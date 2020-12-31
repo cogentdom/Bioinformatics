@@ -1,6 +1,6 @@
-README  
-LAB-04  
-Team Programming Project: Bioinformatics  
+Bioinformatics
+ 
+Project Authors:   
 - Dominik Huffield
 - Marcus Henke 
 
