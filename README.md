@@ -5,10 +5,6 @@ Project Authors:
 - Marcus Henke 
 
 
-Due date: 12pm 12/07/2018
-
-This Submission does not support Cache functionality.
-
 -----------------------------------
 Layout of the B-Tree file on disk:
 -----------------------------------
