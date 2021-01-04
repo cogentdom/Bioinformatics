@@ -1,4 +1,4 @@
-***Bioinformatics***
+***__Bioinformatics__***
  
 Project Authors:   
 - Dominik Huffield
