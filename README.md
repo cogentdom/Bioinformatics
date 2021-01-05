@@ -13,14 +13,14 @@ The layout of our btree binary disk file is as follows: Each Node on the disk co
 
 Node Layout on disk:  
     -----------------------------------------------------------------------------------------  
-    | Location size (int) four bytes;                                                       |  
-    | Number of objects size (int), Four Bytes;                                             |  
-    | isLeaf boolean (int), four bytes;                                                     |  
-    | parent Pointer size (int), four bytes;                                                |  
-    | Child pointer array, each object in the array is size (int), four bytes;              |  
-    | TreeObjects having both the DNA strand (long) and the frequency (int): 8 and 4 bytes; |  
-    | DNA strand size (long), eight bytes;                                                  |  
-    | Frequncy size (int), four bytes;                                                      |  
+    | -  Location size (int) four bytes;                                                       |  
+    | -  Number of objects size (int), Four Bytes;                                             |  
+    | -  isLeaf boolean (int), four bytes;                                                     |  
+    | -  parent Pointer size (int), four bytes;                                                |  
+    | -  Child pointer array, each object in the array is size (int), four bytes;              |  
+    | -  TreeObjects having both the DNA strand (long) and the frequency (int): 8 and 4 bytes; |  
+    | -  DNA strand size (long), eight bytes;                                                  |  
+    | -  Frequncy size (int), four bytes;                                                      |  
     -----------------------------------------------------------------------------------------   
 
 
