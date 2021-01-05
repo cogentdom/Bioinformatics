@@ -12,7 +12,7 @@ Layout of the B-Tree file on disk:
 The layout of our btree binary disk file is as follows: Each Node on the disk consists of a Location; number of objects; isLeaf; Parent pointer; Child pointers; Tree Objects with the DNA long strand and the frequency of it occuring. 
 
 Node Layout on disk:  
-    -----------------------------------------------------------------------------------------  
+    :---------------------------------------------------------------------------------------:  
     | -  Location size (int) four bytes;                                                       |  
     | -  Number of objects size (int), Four Bytes;                                             |  
     | -  isLeaf boolean (int), four bytes;                                                     |  
