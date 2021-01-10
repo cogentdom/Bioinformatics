@@ -22,7 +22,7 @@ The layout of our btree binary disk file is as follows: Each Node on the disk co
 | -  TreeObjects: DNA (long) & frequency (int) (8 & 4 bytes) |  
 | -  DNA strand size (long), 8 bytes                         |  
 | -  Frequncy size (int), 4 bytes                            |  
---------------------------------------------------------------   
+ 
 
 
 ----------------------
