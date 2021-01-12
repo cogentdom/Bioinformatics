@@ -29,7 +29,7 @@ The layout of our btree binary disk file is as follows: Each Node on the disk co
 Command Line Usage
 ----------------------
 GeneBankCreateBTree.java   
->  java GeneBankCreateBTree <0/1(no/with Cache)> <degree> <gbk file> <sequence length> [<cache size>] [<debug level>]  
+>  java GeneBankCreateBTree <0/1(no/with Cache)><degree><gbk file><sequence length>[<cache size>][<debug level>]  
 >   **debug level must be one or zero if used, and sequence length must be between 1 and 31.  
   
 GeneBankSearch.java  
