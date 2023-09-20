@@ -4,6 +4,7 @@ Project Authors:
 - Dominik Huffield
 - Marcus Henke 
 
+![banner](bioinfo.png)  
 
 -----------------------------------
 Layout of the B-Tree file on disk:
